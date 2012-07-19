@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+.pagination {
+	margin: 5px auto;
+	padding: 12px 0;
+	text-align: center;
+}
+
+.pagination a {
+	border: solid 1px #d2d2d2;
+	color: #444444;
+	margin-right: 2px;
+}
+
+.pagination span {
+	border: solid 1px #ddd;
+	margin-right: 2px;
+}
+
+.pagination .active {
+	border: solid 1px #e0e0e0;
+	color: #000;
+	font-weight: bold;
+}
+
+.pagination a:link,.pagination a:visited {
+	padding: 6px 10px;
+	text-decoration: none;
+}
+
+.pagination span {
+	color: #b6b6b6;
+	padding: 6px 10px;
+	text-decoration: none;
+}
+
+.pagination a:hover {
+	border: solid 1px #b2b2b2;
+}
