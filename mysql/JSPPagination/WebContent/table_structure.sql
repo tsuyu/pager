@@ -1,0 +1,10 @@
+CREATE TABLE `employee` (
+	`emp_id` INT(10) NOT NULL AUTO_INCREMENT,
+	`emp_name` VARCHAR(255) NULL DEFAULT NULL,
+	`salary` DOUBLE NULL DEFAULT NULL,
+	`dept_name` VARCHAR(255) NULL DEFAULT NULL,
+	PRIMARY KEY (`emp_id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=1;
